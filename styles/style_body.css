@@ -32,7 +32,7 @@ strong{
 
 #banner{
 
-    background-image: url(../images/wp-kick-4-300x188.png);
+    background-image: url(/images/wp-kick-4-300x188.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -57,7 +57,7 @@ strong{
 
 #project{
 
-    background-image: url(../images/marca-dagua.png);
+    background-image: url(/images/marca-dagua.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position:right;
