@@ -10,7 +10,7 @@
     --white: #ffffff;
     --orange: #e96228;
     --blue: #569CD6;
-    --dark-blue: #3082C5;
+    --dark-blue: #4e78d2;/*#3e719a;#3082C5;*/
     --light-blue: #9CDCFE;
     --green: #4B8B3A;
     --yellow: #f0d81e;
@@ -37,25 +37,21 @@
 .black{
 
     color: var(--black);
-
 }
 
 .white{
 
     color: var(--white);
-
 }
 
 .orange{
 
     color: var(--orange);
-
 }
 
 .blue{
 
     color: var(--blue);
-
 }
 
 .darkBlue{
@@ -66,25 +62,21 @@
 .lightBlue{
 
     color: var(--light-blue);
-
 }
 
 .green{
 
     color: var(--green);
-
 }
 
 .yellow{
 
     color: var(--yellow);
-
 }
 
 .purple{
 
     color: var(--purple);
-
 }
 
 .brown{
@@ -96,56 +88,48 @@
 
     font-size: var(--primary);
     text-decoration: none;
-
 }
 
 .secondary{
 
     font-size: var(--secondary);
     text-decoration: none;
-
 }
 
 .tertiary{
 
     font-size: var(--tertiary);
     text-decoration: none;
-
 }
 
 .text{
 
     font-size: var(--text);
-    font-weight: lighter;
-    
+    font-weight: lighter;    
 }
 
 .container{
 
     width: 100%;
+    height: 100%;
 
-    margin: 0%;
+    position: relative;
+    z-index: 1;
 
-}
-
-.width{
-
-    width: 50%;
-
+    margin: 0px auto;
+    padding: 0%;
 }
 
 .fixed{
 
     position: fixed;
     z-index: 2;
-
 }
 
 .flex{
 
     display: flex;
-    flex-direction: row;
-
+    justify-content: center;
 }
 
 .block{
@@ -159,7 +143,6 @@
     background-color: var(--bg-dark);
 
     color: var(--white);
-
 }
 
 .dark .button{
@@ -174,7 +157,6 @@
     background-color: var(--bg-light);
 
     color: var(--black);
-
 }
 
 .light .button{
@@ -182,6 +164,8 @@
     background-color: var(--blue);
 
     color: var(--white);
+
+    box-shadow: 0 12px 80px -10px rgb(0 0 0 / 8%);
 }
 
 .tab{
@@ -192,53 +176,49 @@
 .top{
 
     vertical-align: top;
-
 }
 
 .middle{
 
     vertical-align: middle;
-
 }
 
 .bottom{
 
-    vertical-align: bottom;
-
+    vertical-align: bottom;    
 }
 
 .left{
 
     text-align: left;
-
 }
 
 .center{
 
     text-align: center;
-
 }
 
 .right{
 
     text-align: right;
-
 }
 
 .spaceAround{
 
     justify-content: space-around;
-
 }
 
 .spaceBetween{
 
     justify-content: space-between;
-
 }
 
 .spaceEvenly{
 
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;    
+}
+
+.item{
+
+    display: inline-block;
 }

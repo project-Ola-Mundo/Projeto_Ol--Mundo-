@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <title>Olá Mundo!</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3bf152166c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/styles/style_rules.css">
-    <link rel="stylesheet" href="/styles/style_menu.css">
-    <link rel="stylesheet" href="/styles/style_body.css">
+    <link rel="stylesheet" href="styles/style_rules.css">
+    <link rel="stylesheet" href="styles/style_menu.css">
+    <link rel="stylesheet" href="styles/style_body.css">
 </head>
 
 <body>
 
     <header class="fixed">
 
-        <div class="menu flex middle center">
+        <div class="menu flex spaceBetween center">
             <a href="index.html" class="middle">
                 <img src="images/logo.png" alt="olá_mundo" class="logo">
             </a>
@@ -34,7 +34,7 @@
                         <a href="#methodology"><i class="fas fa-code-branch orange"></i> Metodologia</a>
                     </li>
                     <li>
-                        <a href="#videos"><i class="fab fa-js-square yellow"></i> Vídeos</a>
+                        <a href="#recent"><i class="fab fa-js-square yellow"></i> Vídeos</a>
                     </li>
                     <li>
                         <a href=""><i class="fas fa-terminal green"></i> Quem_Somos</a>
@@ -82,41 +82,41 @@
     </section>
 
     <section id="project" class="dark">
-        <div class="block top left">
+        <div class="container block left">
             <h2 class="secondary">
                 Oi <strong>todo</strong> Mundo,
             </h2>
             <h3 class="text blue">
                 &lt;p <span class="lightBlue">id=</span><span class="brown">"o_Projeto"</span>&gt;
             </h3>
-            <div class="container">
-                <div class="left">
-                    <p class="tab width text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, obcaecati tenetur cumque at
-                        ipsum
-                        voluptas reprehenderit sunt veniam sed doloremque voluptate deserunt labore voluptatem ullam
-                        porro
-                        eveniet id totam consequuntur.
-                    </p>
-                </div>
+            <div class="tab c_width">
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, obcaecati tenetur cumque at
+                    ipsum
+                    voluptas reprehenderit sunt veniam sed doloremque voluptate deserunt labore voluptatem ullam
+                    porro
+                    eveniet id totam consequuntur.
+                </p>
             </div>
             <h3 class="text blue">
                 &lt;/p&gt;
             </h3>
-            <a href="discord.com" class="button text left">
-                <i class="fab fa-discord"></i> Entrar no <strong>grupo</strong>
-            </a>
+            <div class="c_width center">
+                <a href="discord.com" class="button text item bottom">
+                    <i class="fab fa-discord"></i> Entrar no <strong>grupo</strong>
+                </a>
+            </div>
         </div>
     </section>
     <section id="skills" class="light">
-        <div class="block top left">
+        <div class="container block left">
             <h2 class="secondary">
-                Um horizonte de <strong>possibilidades</strong>;
+                Um horizonte de <strong>Possibilidades</strong>;
             </h2>
             <h3 class="text purple">
                 #os_Conteudos{
             </h3>
-            <div class="container flex">
+            <div class="flex">
                 <div class="box top">
                     <div class="card left">
                         <i class="fas fa-pen-fancy icon secondary darkBlue"></i>
@@ -199,35 +199,102 @@
         </div>
     </section>
     <section id="methodology" class="dark">
-        <h2 class="secondary">
-            O "framework" do projeto
-        </h2>
-        <h3 class="text">
-            <i class="fas fa-file white"></i> README.md
-        </h3>
-        <div class="container flex left">
-            <div class="width top">
-                <p class="tab text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Fuga maxime nihil voluptate rerum maiores quod, neque suscipit 
-                    consequuntur doloribus nisi voluptatem vero tempore mollitia ea iste,
-                     est cupiditate asperiores. Non!
-                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Fuga maxime nihil voluptate rerum maiores quod, neque suscipit 
-                    consequuntur doloribus nisi voluptatem vero tempore mollitia ea iste,
-                     est cupiditate asperiores. Non!
-                </p>
-            </div>
-            <div class="width top ">
-                <iframe class="box video top" src="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" frameborder="0"></iframe>
+        <div class="container block">
+            <h2 class="secondary">
+                O "framework" do projeto
+            </h2>
+            <h3 class="text">
+                <i class="fas fa-file text"></i> README.md
+            </h3>
+            <div class="flex">
+                <div class="c_width">
+                    <p class="tab text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Fuga maxime nihil voluptate rerum maiores quod, neque suscipit
+                        consequuntur doloribus nisi voluptatem vero tempore mollitia ea iste,
+                        est cupiditate asperiores. Non!
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Fuga maxime nihil voluptate rerum maiores quod, neque suscipit
+                        consequuntur doloribus nisi voluptatem vero tempore mollitia ea iste,
+                        est cupiditate asperiores. Non!
+                    </p>
+                </div>
+                <div class="center">
+                    <iframe class="video"
+                        src="https://www.youtube.com/embed/videoseries?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </section>
-    <section id="" class="light">
+    <section id="recent" class="light">
+        <div class="container block">
+            <h2 class="secondary">
+                Para já começar <strong>Agora</strong>!
+            </h2>
+            <h3 class="text black">
+                <span class="darkBlue">function</span> show_videos(<span class="brown">"Recentes"</span>)
+            </h3>
+            <div class="item flex top center">
+                <div class="card wall flex">
+                    <div class="c_width left">
+                        <h3 class="text black">
+                            <span class="darkblue">let</span> Design
+                        </h3>
+                        <p class="tab text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Eius repellendus fugit eligendi reprehenderit, 
+                            dignissimos labore exercitationem commodi rerum eos maiores, 
+                            ipsa expedita autem earum quisquam. Similique sit sapiente iusto officiis.
+                        </p>
+                        <div class="center">
+                            <a href="discord.com" class="button text item bottom">
+                                <i class="fab fa-discord"></i> Entrar no <strong>grupo</strong>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <iframe class="video"
+                            src="https://www.youtube.com/embed/videoseries?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- <div class="card"></div>
+                <div class="card"></div> -->
+            </div>
+        </div>
 
     </section>
-    <section id="" class="dark">
-
+    <section id="about" class="dark">
+        <!-- <div class="container block left">
+            <h2 class="secondary">
+                Oi <strong>todo</strong> Mundo,
+            </h2>
+            <h3 class="text blue">
+                &lt;p <span class="lightBlue">id=</span><span class="brown">"o_Projeto"</span>&gt;
+            </h3>
+            <div class="">
+                <p class="tab c_width text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, obcaecati tenetur cumque at
+                    ipsum
+                    voluptas reprehenderit sunt veniam sed doloremque voluptate deserunt labore voluptatem ullam
+                    porro
+                    eveniet id totam consequuntur.
+                </p>
+            </div>
+            <h3 class="text blue">
+                &lt;/p&gt;
+            </h3>
+            <div class="c_width center">
+                <a href="discord.com" class="button text item bottom">
+                    <i class="fab fa-discord"></i> Entrar no <strong>grupo</strong>
+                </a>
+            </div>
+        </div> -->
     </section>
     <section id="" class="light">
 
