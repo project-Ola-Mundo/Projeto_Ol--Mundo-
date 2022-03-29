@@ -122,7 +122,7 @@ strong{
 
     display: inline-block;
 
-    padding-right: 24px;
+    padding: 12px;
 }
 
 .c_width{
@@ -136,12 +136,57 @@ strong{
 
     background-color: inherit;
 
-    padding: 40px;
-
+    padding: 40px 80px;
+    
     border-radius: 12px;
     box-shadow: 0 12px 80px -10px rgb(0 0 0 / 8%);
 
     font-size: 16px;
+}
+
+.card p{
+
+    margin-right: 20px;
+}
+
+.card .video{
+
+    padding-left: 10px;
+}
+
+.prev, .next{
+
+    cursor: pointer;
+    position: absolute;
+    top: 48%;
+    padding: 12px;
+}
+
+.prev{
+
+    left: 1%;
+}
+
+.next{
+
+    right: 1%;
+}
+
+.prev:hover, .next:hover{
+
+    transition: 0.5s;
+    background-color: var(--bg-dark);
+    color: var(--white);
+}
+
+.dotsBox{
+
+    margin: 20px;
+}
+
+.dot{
+
+    cursor: pointer;
 }
 
 .icon{
@@ -151,8 +196,8 @@ strong{
 
 .video{
 
-    width: 560;
-    height: 315;
+    width: 448;
+    height: 252;
 }
 
 .image{

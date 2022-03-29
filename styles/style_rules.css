@@ -137,6 +137,11 @@
     justify-content: space-between;
 }
 
+.hidden{
+
+    overflow: hidden;
+}
+
 .dark{
 
     background-color: var(--bg-dark);
