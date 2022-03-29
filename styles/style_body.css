@@ -5,16 +5,16 @@ body{
     margin: 0%;
     padding: 0%;
 
+    max-width: 100vw;
+
     position: relative;
 
     font-family: var(--font);
-
 }
 
 header{
 
     width: 100vw;
-
 }
 
 section{
@@ -22,19 +22,17 @@ section{
     min-height: 100vh;
     max-width: 100vw;
 
-    padding: 40px 80px;
-
+    padding: 80px;
 }
 
 strong{
 
     font-weight: 900;
-
 }
 
 #banner{
 
-    background-image: url(/images/wp-kick-4-300x188.png);
+    background-image: url(../images/wp-kick-4-300x188.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -43,19 +41,20 @@ strong{
     padding: 10vh 0px 0px 0px;
     margin: 0%;
 
+    height: 100vh;
+
     color: var(--white);
 
     text-align: center;
 
     position: relative;
-
 }
 
 #banner::after{
 
     content: "";
 
-    background-color: rgba(0, 0, 0, 0.733);
+    background-color: #1e1e1ebb;
 
     position: absolute;
     top: 0px;
@@ -63,25 +62,41 @@ strong{
 
     width: 100%;
     height:100%;
-
 }
 
 #arrow_down{
 
-    width: 100vw;
+    width: 100%;
     position: absolute;
     bottom: 80px;
+    z-index: 1;
 
 }
 
 #project{
 
-    background-image: url(/images/marca-dagua.png);
+    background-image: url(../images/marca-dagua.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position:right;
-    background-position-x: 50vw;
+    background-position-x: 90%;
     background-size: 40%;
+
+    position: relative;
+}
+
+#project::after{
+
+    content: "";
+
+    background-color: #1e1e1ebb;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    width: 100%;
+    height:100%;
 }
 
 .button{
@@ -92,8 +107,6 @@ strong{
     text-decoration: none;
 
     border-radius: 12px;
-    box-shadow: 0 12px 80px -10px rgb(0 0 0 / 8%);
-
 }
 
 .box{
@@ -102,8 +115,13 @@ strong{
 
     width: 33.333%;
     padding-right: 24px;
+}
 
-    font-size: 16px;
+.c_width{
+
+    padding-right: 40px;
+
+    width: 50%;
 }
 
 .card{
@@ -113,6 +131,7 @@ strong{
     border-radius: 12px;
     box-shadow: 0 12px 80px -10px rgb(0 0 0 / 8%);
 
+    font-size: 16px;
 }
 
 .icon{
@@ -122,10 +141,6 @@ strong{
 
 .video{
 
-    padding: 40px;
-
-    width: 100%;
-    height: 100%;
-
-    border-radius: 12px;
+    width: 560;
+    height: 315;
 }
