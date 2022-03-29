@@ -103,7 +103,7 @@ strong{
 
     padding: 10px;
     margin: 40px;
-    width:fit-content ;
+    width: 200px;
 
     text-decoration: none;
 
@@ -133,6 +133,8 @@ strong{
 }
 
 .card{
+
+    background-color: inherit;
 
     padding: 40px;
 
