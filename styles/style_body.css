@@ -157,3 +157,41 @@ strong{
 
     border-radius: 12px;
 }
+
+footer{
+
+    height: 50px;
+
+    margin: auto;
+    padding: 0px 40px;
+
+    color: var(--white);
+
+    align-items: center;
+}
+
+footer .text{
+
+    font-size: 16px;
+}
+
+footer ul{
+
+    margin: auto;
+}
+
+footer li{
+
+    list-style: none;
+    padding: 0px 10px;
+}
+
+
+footer a{
+
+    color: inherit;
+
+    text-align: center;
+    text-decoration: none;
+
+}
