@@ -221,4 +221,7 @@
 .item{
 
     display: inline-block;
+
+    padding-right: 24px;
+    width: 50%;
 }
