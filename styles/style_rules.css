@@ -10,9 +10,10 @@
     --white: #ffffff;
     --orange: #e96228;
     --blue: #569CD6;
-    --dark-blue: #4e78d2;/*#3e719a;#3082C5;*/
+    --dark-blue: #1b4ebd;/*#3e719a;#3082C5;*/
     --light-blue: #9CDCFE;
     --green: #4B8B3A;
+    --dark-green: #145a00;
     --yellow: #f0d81e;
     --purple: #943a92;
     --brown: #d48057;
@@ -24,8 +25,8 @@
     --primary: 90px;
     --mobile-primary: 30px;
     --secondary: 40px;
-    --mobile-secondary: 24px;
-    --tertiary: 20px;
+    --mobile-secondary: 22px;
+    --tertiary: 22px;
     --mobile-tertiary: 18px;
     --text: 18px;
     --mobile-text: 16px;
@@ -69,6 +70,11 @@
     color: var(--green);
 }
 
+.darkGreen{
+
+    color: var(--dark-green);
+}
+
 .yellow{
 
     color: var(--yellow);
@@ -99,13 +105,30 @@
 .tertiary{
 
     font-size: var(--tertiary);
+    font-weight: 400;
     text-decoration: none;
 }
 
 .text{
 
     font-size: var(--text);
-    font-weight: lighter;    
+    font-weight: lighter;
+    text-decoration: none;  
+}
+
+.bolder{
+
+    font-weight: bolder;
+}
+
+.normal{
+
+    font-weight: normal;
+}
+
+.thin{
+
+    font-weight: lighter;
 }
 
 .container{
@@ -174,7 +197,7 @@
 
 .tab{
 
-    padding-left: 40px;
+    padding-left: 24px;
 }
 
 .top{
