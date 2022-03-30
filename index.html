@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/style_rules.css">
     <link rel="stylesheet" href="styles/style_menu.css">
     <link rel="stylesheet" href="styles/style_body.css">
+    <script src="scripts/validation.js"></script>
 </head>
 
 <body>
@@ -454,32 +455,46 @@
                                 <h3 class="tertiary normal">
                                     Deixe aqui a sua dúvida:
                                 </h3>
-                                <div class="flex">
-                                    <div>
-                                        <label for="">Nome</label>
-                                        <input type="text" placeholder="Digite o nome">
-                                    </div>
-                                    <div>
-                                        <label for="">Sobrenome</label>
-                                        <input type="text" placeholder="Digite o sobrenome">
+                                <div class="formLine">
+                                    <div class="formItem">
+                                        <label for="#nome">Nome</label>
+                                        <input id="nome" type="text" placeholder="Nome e sobrenome" value="" required>
                                     </div>
                                 </div>
-                                <div>
-                                    <label for="">Email</label>
-                                    <input type="text" placeholder="Digite o email">
+                                <div class="formLine">
+                                    <div class="formItem">
+                                        <label>Gênero</label>
+                                        <div class="formRadio">
+                                            <input type="radio" name="gen" value="m">
+                                            Ele/dele
+                                            <input type="radio" name="gen" value="f">
+                                            Ela/dela
+                                            <input type="radio" name="gen" value="o" checked>
+                                            Elo/delo
+                                        </div>
+                                    </div>
                                 </div>
-                                <div>
-                                    <label for="">Telefone</label>
-                                    <input type="text" placeholder="Digite o telefone">
+                                <div class="formLine">
+                                    <div class="formItem">
+                                        <label for="#email">Email</label>
+                                        <input id="email" type="email" placeholder="Digite o email" value="" required>
+                                    </div>
+                                    <div class="formItem">
+                                        <label for="tel">Telefone</label>
+                                        <input id="tel" type="tel" placeholder="Digite o telefone" value="" required>
+                                    </div>
                                 </div>
-                                <div>
-                                    <label for="">Mensagem</label>
-                                    <input type="text" placeholder="Digite a sua Mensagem">
+                                <div class="formLine">
+                                    <div class="formItem">
+                                        <label for="#mensagem">Dúvida</label>
+                                        <input id="mensagem" type="text" placeholder="Digite a sua Mensagem" value="" required>
+                                    </div>
                                 </div>
                                 <div class="center">
-                                    <a href="" onclick="" class="button text item bottom">
-                                        <i class="fas fa-angle-right"></i> <strong>Enviar</strong>
-                                    </a>
+                                    <button onclick="validation()" class="button text item bottom">
+                                        <i class="fas fa-angle-right"></i> <span class="bolder">Enviar</span>
+                                    </button>
+
                                 </div>
                             </div>
                         </form>
