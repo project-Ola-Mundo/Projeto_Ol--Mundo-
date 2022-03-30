@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/style_menu.css">
     <link rel="stylesheet" href="styles/style_body.css">
     <script src="scripts/validation.js"></script>
+    <script src="scripts/switch_menu.js"></script>
 </head>
 
 <body>
@@ -24,6 +25,7 @@
             </a>
 
             <nav>
+
                 <ul class="flex">
                     <li>
                         <a href="#project"><i class="fas fa-code orange"></i> Projeto</a>
@@ -46,27 +48,77 @@
                 </ul>
             </nav>
 
-            <div>
-                <ul class="flex tertiary">
-                    <li>
-                        <a href="https://www.instagram.com/project.olamundo/" target="_blank"
-                            rel="noreferrer noopener"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/project-Ola-Mundo" target="_blank" rel="noreferrer noopener"><i
-                                class="fab fa-github"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://discord.gg/6c52D6DRFn" target="_blank" rel="noreferrer noopener"><i
-                                class="fab fa-discord"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/channel/UCxOJtr9t_FZOVyJBdBr9HlQ" target="_blank"
-                            rel="noreferrer noopener"><i class="fab fa-youtube"></i></a>
-                    </li>
-                </ul>
-            </div>
+            <ul class="flex tertiary">
+                <li>
+                    <a href="https://www.instagram.com/project.olamundo/" target="_blank" rel="noreferrer noopener"><i
+                            class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/project-Ola-Mundo" target="_blank" rel="noreferrer noopener"><i
+                            class="fab fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="https://discord.gg/6c52D6DRFn" target="_blank" rel="noreferrer noopener"><i
+                            class="fab fa-discord"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCxOJtr9t_FZOVyJBdBr9HlQ" target="_blank"
+                        rel="noreferrer noopener"><i class="fab fa-youtube"></i></a>
+                </li>
+            </ul>
         </div>
+
+        <div class="mobile menu spaceBetween center white">
+            <a onclick="show_menu()" class="menu_sandwich secondary">
+                <i class="fas fa-bars"></i>
+            </a>
+
+            <a href="index.html">
+                <img src="images/logo.png" alt="olá_mundo" class="logo">
+            </a>
+        </div>
+
+        <nav id="dropdown" class="white">
+            <ul>
+                <li>
+                    <a href="#project"><i class="fas fa-code orange"></i> Projeto</a>
+                </li>
+                <li>
+                    <a href="#skills"><i class="fas fa-hashtag blue"></i> Conteúdos</a>
+                </li>
+                <li>
+                    <a href="#methodology"><i class="fas fa-code-branch orange"></i> Metodologia</a>
+                </li>
+                <li>
+                    <a href="#recent"><i class="fab fa-js-square yellow"></i> Vídeos</a>
+                </li>
+                <li>
+                    <a href="#about"><i class="fas fa-terminal green"></i> Quem_Somos</a>
+                </li>
+                <li>
+                    <a href="#contact"><i class="fas fa-database white"></i> Contato</a>
+                </li>
+            </ul>
+
+            <ul class="social secondary">
+                <li>
+                    <a href="https://www.instagram.com/project.olamundo/" target="_blank" rel="noreferrer noopener"><i
+                            class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/project-Ola-Mundo" target="_blank" rel="noreferrer noopener"><i
+                            class="fab fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="https://discord.gg/6c52D6DRFn" target="_blank" rel="noreferrer noopener"><i
+                            class="fab fa-discord"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCxOJtr9t_FZOVyJBdBr9HlQ" target="_blank"
+                        rel="noreferrer noopener"><i class="fab fa-youtube"></i></a>
+                </li>
+            </ul>
+        </nav>
 
     </header>
 
@@ -94,7 +146,7 @@
             <h3 class="text blue normal">
                 &lt;p <span class="lightBlue">id=</span><span class="brown">"o_Projeto"</span>&gt;
             </h3>
-            <div class="item half_pc_width top left">
+            <div class="item half_pc_width left">
                 <p class="tab text thin">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, obcaecati tenetur cumque at
                     ipsum
@@ -108,7 +160,7 @@
             </h3>
             <div class="item center">
                 <a href="https://discord.gg/6c52D6DRFn" target="_blank" rel="noreferrer noopener"
-                    class="button text normal item bottom">
+                    class="button text normal item">
                     <i class="fab fa-discord"></i> Ver <span class="bolder">grupo</span>
                 </a>
             </div>
@@ -118,12 +170,12 @@
     <section id="skills" class="light">
         <div class="container block left">
             <div class="flex spaceBetween">
-                    <h2 class="secondary">
-                        Conteúdos = Possibilidades;
-                    </h2>
+                <h2 class="secondary">
+                    Conteúdos = Possibilidades;
+                </h2>
                 <div class="pc right">
                     <a href="https://docs.google.com/document/d/1qEddwfbqr8U7eecUKnOQTT0rXyp-8j3mB-gRdfFSl44/edit?usp=sharing"
-                        target="_blank" rel="noreferrer noopener" class="button text center item bottom">
+                        target="_blank" rel="noreferrer noopener" class="button text center item">
                         <i class="fas fa-align-left"></i> Ver <span class="bolder">mais</span>
                     </a>
                 </div>
@@ -132,7 +184,7 @@
                 #os_Conteudos{
             </h3>
             <div class="flex">
-                <div class="box top">
+                <div class="box">
                     <div class="card left">
                         <i class="fas fa-pen-fancy icon secondary darkBlue"></i>
                         <h3 class="tertiary bolder">
@@ -156,7 +208,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="box top">
+                <div class="box">
                     <div class="card left">
                         <i class="fas fa-laptop-code icon secondary orange"></i>
                         <h3 class="tertiary bolder">
@@ -183,7 +235,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="box top">
+                <div class="box">
                     <div class="card left">
                         <i class="fas fa-server icon secondary yellow"></i>
                         <h3 class="tertiary bolder">
@@ -229,7 +281,7 @@
                 <i class="fas fa-file text"></i> <span class="bolder">README.md</span>
             </h3>
             <div class="flex">
-                <div class="item top">
+                <div class="item">
                     <p class="tab text thin">
                         A ideia do projeto é de funcionar como um framework, figurativa e literalmente,
                         mas também como um organismo vivo sempre evoluindo e adaptando ao mercado.
@@ -249,7 +301,7 @@
             </div>
             <div class="center">
                 <a href="https://github.com/project-Ola-Mundo/Projeto_Ola-Mundo/blob/main/styles/style_rules.css"
-                    target="_blank" rel="noreferrer noopener" class="button text normal item bottom">
+                    target="_blank" rel="noreferrer noopener" class="button text normal item">
                     <i class="fab fa-github"></i> Ver <span class="bolder">repositório</span>
                 </a>
             </div>
@@ -280,7 +332,7 @@
                             </p>
                             <div class="pc center">
                                 <a href="https://www.youtube.com/channel/UCxOJtr9t_FZOVyJBdBr9HlQ" target="_blank"
-                                    rel="noreferrer noopener" class="button text normal item bottom">
+                                    rel="noreferrer noopener" class="button text normal item">
                                     <i class="fab fa-youtube"></i> Ver <span class="bolder">aulas</span>
                                 </a>
                             </div>
@@ -294,7 +346,7 @@
                         </div>
                         <div class="mobile center">
                             <a href="https://www.youtube.com/channel/UCxOJtr9t_FZOVyJBdBr9HlQ" target="_blank"
-                                rel="noreferrer noopener" class="button text normal item bottom">
+                                rel="noreferrer noopener" class="button text normal item">
                                 <i class="fab fa-youtube"></i> Ver <span class="bolder">aulas</span>
                             </a>
                         </div>
@@ -315,7 +367,7 @@
                             </p>
                             <div class="pc center">
                                 <a href="https://www.youtube.com/channel/UCxOJtr9t_FZOVyJBdBr9HlQ" target="_blank"
-                                    rel="noreferrer noopener" class="button text normal item bottom">
+                                    rel="noreferrer noopener" class="button text normal item">
                                     <i class="fab fa-youtube"></i> Ver <span class="bolder">aulas</span>
                                 </a>
                             </div>
@@ -329,7 +381,7 @@
                         </div>
                         <div class="mobile center">
                             <a href="https://www.youtube.com/channel/UCxOJtr9t_FZOVyJBdBr9HlQ" target="_blank"
-                                rel="noreferrer noopener" class="button text normal item bottom">
+                                rel="noreferrer noopener" class="button text normal item">
                                 <i class="fab fa-youtube"></i> Ver <span class="bolder">aulas</span>
                             </a>
                         </div>
@@ -350,7 +402,7 @@
                             </p>
                             <div class="pc center">
                                 <a href="https://www.youtube.com/channel/UCxOJtr9t_FZOVyJBdBr9HlQ" target="_blank"
-                                    rel="noreferrer noopener" class="button text normal item bottom">
+                                    rel="noreferrer noopener" class="button text normal item">
                                     <i class="fab fa-youtube"></i> Ver <span class="bolder">aulas</span>
                                 </a>
                             </div>
@@ -364,7 +416,7 @@
                         </div>
                         <div class="mobile center">
                             <a href="https://www.youtube.com/channel/UCxOJtr9t_FZOVyJBdBr9HlQ" target="_blank"
-                                rel="noreferrer noopener" class="button text normal item bottom">
+                                rel="noreferrer noopener" class="button text normal item">
                                 <i class="fab fa-youtube"></i> Ver <span class="bolder">aulas</span>
                             </a>
                         </div>
@@ -399,7 +451,7 @@
                 <i class="fas fa-file text"></i> <span class="bolder">README.md</span>
             </h3>
             <div class="flex">
-                <div class="item top">
+                <div class="item">
                     <p class="tab text thin">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         Fuga maxime nihil voluptate rerum maiores quod, neque suscipit
@@ -412,18 +464,18 @@
                     </p>
                     <div class="pc center">
                         <a href="http://juan-martins.soukick.com.br/?page_id=22#" target="_blank"
-                            rel="noreferrer noopener" class="button text normal item bottom">
+                            rel="noreferrer noopener" class="button text normal item">
                             <i class="fab fa-wordpress"></i> Ver <span class="bolder">Portifólio</span>
                         </a>
                     </div>
                 </div>
-                <div class="item top center">
+                <div class="item center">
                     <img class="image" src="images/eu.jpg" alt="eu">
                 </div>
 
                 <div class="mobile center">
-                    <a href="http://juan-martins.soukick.com.br/?page_id=22#" target="_blank"
-                        rel="noreferrer noopener" class="button text normal item bottom">
+                    <a href="http://juan-martins.soukick.com.br/?page_id=22#" target="_blank" rel="noreferrer noopener"
+                        class="button text normal item">
                         <i class="fab fa-wordpress"></i> Ver <span class="bolder">Portifólio</span>
                     </a>
                 </div>
@@ -500,7 +552,8 @@
                                         <div class="formRadio">
                                             <input type="radio" name="gen" value="f">
                                             Ela/dela
-                                        </div><div class="formRadio">
+                                        </div>
+                                        <div class="formRadio">
                                             <input type="radio" name="gen" value="o">
                                             El/delo
                                         </div>
@@ -519,11 +572,12 @@
                                 <div class="formLine">
                                     <div class="formItem">
                                         <label for="#mensagem">Dúvida</label>
-                                        <input id="mensagem" type="text" placeholder="Digite a sua Mensagem" value="" required>
+                                        <input id="mensagem" type="text" placeholder="Digite a sua Mensagem" value=""
+                                            required>
                                     </div>
                                 </div>
                                 <div class="center">
-                                    <button onclick="validation()" class="button text item bottom">
+                                    <button onclick="validation()" class="button text item">
                                         <i class="fas fa-angle-right"></i> <span class="bolder">Enviar</span>
                                     </button>
 
@@ -542,9 +596,9 @@
                 <a href="index.html">
                     <img src="images/logo.png" alt="olá_mundo" class="logo">
                 </a>
-                <p class="text thin">@2022 Projeto_Olá-Mundo</p>
+                <p class="text thin padding_twelve_bottom">@2022 Projeto_Olá-Mundo</p>
                 <div class="left">
-                    <ul class="flex tertiary normal spaceBetween">
+                    <ul class="social tertiary normal spaceBetween">
                         <li>
                             <a href="https://www.instagram.com/project.olamundo/" target="_blank"
                                 rel="noreferrer noopener"><i class="fab fa-instagram  white"></i></a>
@@ -597,6 +651,33 @@
                         </ul>
                     </nav>
                 </div>
+            </div>
+        </div>
+
+        <div class="mobile footer left">
+            <div class="item left">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="olá_mundo" class="logo">
+                </a>
+                <p class="text thin padding_twelve_bottom">@2022 Projeto_Olá-Mundo</p>
+                <ul class="social secondary normal spaceBetween">
+                    <li>
+                        <a href="https://www.instagram.com/project.olamundo/" target="_blank"
+                            rel="noreferrer noopener"><i class="fab fa-instagram  white"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/project-Ola-Mundo" target="_blank" rel="noreferrer noopener"><i
+                                class="fab fa-github white"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://discord.gg/6c52D6DRFn" target="_blank" rel="noreferrer noopener"><i
+                                class="fab fa-discord white"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCxOJtr9t_FZOVyJBdBr9HlQ" target="_blank"
+                            rel="noreferrer noopener"><i class="fab fa-youtube white"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </footer>
