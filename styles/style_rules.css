@@ -23,7 +23,7 @@
     --font: 'Roboto Mono';
 
     --primary: 90px;
-    --mobile-primary: 30px;
+    --mobile-primary: 60px;
     --secondary: 40px;
     --mobile-secondary: 22px;
     --tertiary: 22px;
@@ -205,21 +205,6 @@
     padding-left: 24px;
 }
 
-.top{
-
-    vertical-align: top;
-}
-
-.middle{
-
-    vertical-align: middle;
-}
-
-.bottom{
-
-    vertical-align: bottom;    
-}
-
 .left{
 
     text-align: left;
@@ -248,4 +233,68 @@
 .spaceEvenly{
 
     justify-content: space-evenly;    
+}
+
+.pc{
+
+    display: block;
+}
+
+.mobile{
+
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .primary{
+    
+        font-size: var(--mobile-primary);
+        text-decoration: none;
+    }
+    
+    .secondary{
+    
+        font-size: var(--mobile-secondary);
+        text-decoration: none;
+    }
+    
+    .tertiary{
+    
+        font-size: var(--mobile-tertiary);
+        font-weight: 400;
+        text-decoration: none;
+    }
+    
+    .text{
+    
+        font-size: var(--mobile-text);
+        font-weight: lighter;
+        text-decoration: none;  
+    }
+
+    .flex{
+
+        display: block;
+    }
+
+    .tab{
+    
+        padding-left: 12px;
+    }
+
+    .pc{
+
+        display: none;
+    }
+
+    .mobile{
+        
+        display: block;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+        
 }
