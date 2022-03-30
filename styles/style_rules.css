@@ -118,12 +118,12 @@
 
 .bolder{
 
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 .normal{
 
-    font-weight: normal;
+    font-weight: 500;
 }
 
 .thin{
