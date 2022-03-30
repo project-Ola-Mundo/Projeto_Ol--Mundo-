@@ -9,13 +9,13 @@ function validation() {
     let sty1 = "2px solid var(--orange)";
     let sty2 = "1px solid rgba(102, 102, 102, 0.849)";
 
-    style_error(nome, sty1, sty2);
-    style_error(email, sty1, sty2);
-    style_error(tel, sty1, sty2);
-    style_error(msg, sty1, sty2);
+    style_border(nome, sty1, sty2);
+    style_border(email, sty1, sty2);
+    style_border(tel, sty1, sty2);
+    style_border(msg, sty1, sty2);
 }
 
-function style_error(input, style1, style2) {
+function style_border(input, style1, style2) {
 
     if (!input.checkValidity()) {
         input.style.border = style1;
