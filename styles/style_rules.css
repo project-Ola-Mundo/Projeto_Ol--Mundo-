@@ -291,7 +291,7 @@
 
     .mobile{
         
-        display: block;
+        display: flex;
     }
 }
 
