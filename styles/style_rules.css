@@ -237,7 +237,7 @@
 
 .pc{
 
-    display: block;
+    display: flex
 }
 
 .mobile{
