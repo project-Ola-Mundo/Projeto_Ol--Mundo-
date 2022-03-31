@@ -25,10 +25,10 @@ section{
 
 #banner{
 
-    background-image: url(../images/banner-768x482.png);
+    background-image: url(../images/banner.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: left;
     background-size: cover;
 
     padding: 10vh 0px 0px 0px;
@@ -59,7 +59,7 @@ section{
 
     content: "";
 
-    background-color: #1e1e1ebb;
+    background-color: #1e1e1ee7;
 
     position: absolute;
     top: 0px;
@@ -78,23 +78,23 @@ section{
     z-index: 1;
 }
 
-#project{
+#project, #methodology, #about, footer{
 
     background-image: url(../images/marca-dagua.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position:right;
-    background-position-x: 90%;
-    background-size: 40%;
+    background-position-x: 110%;
+    background-size: 45vw;
 
     position: relative;
 }
 
-#project::after{
+#project::after, #methodology::after, #about::after, footer::after{
 
     content: "";
 
-    background-color: #1e1e1ebb;
+    background-color: #1e1e1ed7;
 
     position: absolute;
     top: 0px;
@@ -128,6 +128,9 @@ section{
 
 .box{
 
+    position: relative;
+    z-index: 1;
+
     display: inline-block;
 
     width: 33.333%;
@@ -137,6 +140,7 @@ section{
 .item{
 
     position: relative;
+    z-index: 1;
 
     display: inline-block;
 
