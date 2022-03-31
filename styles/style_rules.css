@@ -206,6 +206,14 @@
     padding-left: 24px;
 }
 
+.spacer{
+
+    padding: 0%;
+    margin: 0%;
+
+    height: 24px;
+}
+
 .left{
 
     text-align: left;
