@@ -152,8 +152,6 @@
 .flex{
 
     display: flex;
-
-    width: 100%;
 }
 
 .block{
@@ -249,7 +247,7 @@
     display: flex
 }
 
-.mobile{
+.mobile, .mobile_item{
 
     display: none;
 }
@@ -287,6 +285,8 @@
         display: inline-block;
 
         margin: auto;
+
+        width: 100%;
     }
 
     .tab{
@@ -302,6 +302,15 @@
     .mobile{
         
         display: flex;
+    }
+
+    .mobile_item{
+
+        position: relative;
+
+        display: inline-block;
+
+        width: 100%;
     }
 }
 
