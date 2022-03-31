@@ -216,6 +216,13 @@ footer{
     position: relative;
 
     padding: 80px 80px 40px 40px;
+
+    height: 40vh;
+}
+
+footer div{
+
+    height: 140px;
 }
 
 footer .logo{
