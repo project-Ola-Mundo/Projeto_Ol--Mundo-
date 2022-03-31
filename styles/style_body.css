@@ -143,11 +143,9 @@ section{
     padding: 12px 14px;
 }
 
-.half_pc_width{
+.sixty_pc_width{
 
-    padding-right: 40px;
-
-    width: 50%;
+    width: 60%;
 }
 
 .card{
