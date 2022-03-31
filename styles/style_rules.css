@@ -152,13 +152,13 @@
 .flex{
 
     display: flex;
-    justify-content: center;
+
+    width: 100%;
 }
 
 .block{
 
     display: block;
-    justify-content: space-between;
 }
 
 .hidden{
@@ -284,7 +284,9 @@
 
     .flex{
 
-        display: block;
+        display: inline-block;
+
+        margin: auto;
     }
 
     .tab{

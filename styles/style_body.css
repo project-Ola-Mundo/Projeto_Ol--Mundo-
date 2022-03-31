@@ -107,6 +107,7 @@ section{
 .button{
 
     cursor: pointer;
+    display: inline-block;
 
     padding: 10px;
     margin: 40px;
@@ -140,7 +141,6 @@ section{
     display: inline-block;
 
     width: 100%;
-    padding: 12px 14px;
 }
 
 .sixty_pc_width{
@@ -173,12 +173,12 @@ section{
 
 .prev{
 
-    left: 2%;
+    left: 1%;
 }
 
 .next{
 
-    right: 0%;
+    right: 1%;
 }
 
 .prev:hover, .next:hover{
@@ -310,8 +310,6 @@ footer li{
     .item{
     
         display: block;
-    
-        padding: 12px;
     }
 
     .card{
@@ -326,7 +324,7 @@ footer li{
         font-size: 14px;
     }
 
-    .half_pc_width{
+    .sixty_pc_width{
 
         padding-right: 0px;
     
@@ -343,7 +341,7 @@ footer li{
     
     section{
 
-        padding: 20px;
+        padding: 40px 10px;
     }
 
     .video{
