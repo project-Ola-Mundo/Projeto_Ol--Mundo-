@@ -85,7 +85,7 @@ section{
     background-attachment: scroll;
     background-position:right;
     background-position-x: 110%;
-    background-size: 45vw;
+    background-size: 550px;
 
     position: relative;
 }
@@ -94,7 +94,7 @@ section{
 
     content: "";
 
-    background-color: #1e1e1ed7;
+    background-color: #1e1e1ed5;
 
     position: absolute;
     top: 0px;
