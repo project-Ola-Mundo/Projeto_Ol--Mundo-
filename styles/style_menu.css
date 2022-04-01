@@ -47,10 +47,16 @@
     display: flex;
 }
 
-.menu li, #dropdown li{
+.menu li{
 
     list-style: none;
     padding: 14px 5px;
+}
+
+#dropdown li{
+
+    list-style: none;
+    padding: 14px 20px;
 }
 
 
