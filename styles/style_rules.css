@@ -8,6 +8,7 @@
     --bg-light: #eeeeee;
     --black: #000000;
     --white: #ffffff;
+    --red: red;
     --orange: #e96228;
     --blue: #569CD6;
     --dark-blue: #1b4ebd;/*#3e719a;#3082C5;*/
@@ -25,7 +26,7 @@
     --primary: 90px;
     --mobile-l-primary: 60px;
     --mobile-s-primary: 40px;
-    --secondary: 40px;
+    --secondary: 35px;
     --mobile-secondary: 22px;
     --tertiary: 25px;
     --mobile-tertiary: 18px;
@@ -89,6 +90,11 @@
 .brown{
 
     color: var(--brown);
+}
+
+.red{
+
+    color: var(--red);
 }
 
 .primary{
