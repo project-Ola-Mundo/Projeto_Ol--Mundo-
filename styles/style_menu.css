@@ -4,6 +4,7 @@
     background-color: #2A2A2A;
 
     height: 50px;
+    padding: 0px 40px;
 }
 
 .menu, #dropdown{
@@ -11,7 +12,6 @@
     position: relative;
 
     margin: 0px;
-    padding: 0px 40px;
 
     align-items: center;        
 }
@@ -25,12 +25,12 @@
 
     display: none;
 
-    background-color: var(--bg-dark);
+    background-color: #2A2A2A;
 
     height: 60vh;
-    width: 100vw;
+    width: 100%;
 
-    box-shadow: 0px 0px 60px 0px var(--black);
+    box-shadow: 0px 0px 80px 0px var(--black);
 }
 
 #dropdown ul{
@@ -50,7 +50,7 @@
 .menu li, #dropdown li{
 
     list-style: none;
-    padding: 5px;
+    padding: 14px 5px;
 }
 
 
@@ -60,6 +60,11 @@
 
     text-align: center;
     text-decoration: none;
+}
+
+.menu li:hover, #dropdown li:hover{
+
+    background-color: var(--bg-dark);
 }
 
 .logo{
